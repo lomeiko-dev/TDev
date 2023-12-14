@@ -1,0 +1,13 @@
+@import './normalize.scss';
+@import './vars.scss';
+@import './themes/dark.scss';
+@import './themes/light.scss';
+@import './themes/night.scss';
+@import './themes/warm.scss';
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: var(--primary-color);
+}

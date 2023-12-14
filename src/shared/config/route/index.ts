@@ -1,0 +1,1 @@
+export {routePathName} from "./route-path"
