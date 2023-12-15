@@ -1,13 +1,15 @@
 enum enumRoutePath {
-    constructor = "constructor",
-    test = "test",
-    notfound = "notfound",
-    main = "main",
+    CONSTRUCTOR = "constructor",
+    TEST = "test",
+    NOTFOUND = "notfound",
+    MAIN = "main",
+    INFO = 'info'
 }
 
 export const routePathName: Record<enumRoutePath, string> = {
-    [enumRoutePath.constructor]: "/constructor",
-    [enumRoutePath.notfound]: "/notfound",
-    [enumRoutePath.test]: "/test",
-    [enumRoutePath.main]: "/"
+    [enumRoutePath.CONSTRUCTOR]: "/constructor",
+    [enumRoutePath.NOTFOUND]: "/notfound",
+    [enumRoutePath.TEST]: "/test",
+    [enumRoutePath.MAIN]: "/",
+    [enumRoutePath.INFO]: "/info"
 }
