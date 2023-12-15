@@ -1,10 +1,11 @@
+import { Layout } from 'widgets/layout'
 import './styles/index.scss'
 
 
 export const App = () => {
     return(
-        <div>
-            Hello!
-        </div>
+        <Layout>
+            Hello
+        </Layout>
     )
 }

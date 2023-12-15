@@ -9,10 +9,10 @@ interface iRouteProviderProps {
 export const RouteProvider:React.FC<iRouteProviderProps> = ({children}) => {
     return(
         <BrowserRouter>
-        <ReactRoutes>
-            {Routes.map(item => <Route key={item.path} {...item}/>)}
-        </ReactRoutes>
-        {children}
+            <ReactRoutes>
+                {Routes.map(item => <Route key={item.path} {...item}/>)}
+            </ReactRoutes>
+            {children}
         </BrowserRouter>
     )
 }

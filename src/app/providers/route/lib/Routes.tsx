@@ -1,4 +1,5 @@
 import { ConstructorPageLazy } from "pages/constructor-page";
+import { InfoPageLazy } from "pages/info-page";
 import { NotFoundPageLazy } from "pages/notfound-page";
 import { TestPageLazy } from "pages/test-page";
 import { RouteProps } from "react-router-dom";
@@ -16,5 +17,9 @@ export const Routes: RouteProps[] = [
     {
         path: routePathName.notfound,
         element: <NotFoundPageLazy/>
+    },
+    {
+        path: routePathName.info,
+        element: <InfoPageLazy/>
     }
 ]
