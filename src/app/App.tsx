@@ -1,11 +1,11 @@
-import { Layout } from 'widgets/layout'
+import { Routing } from './providers/route'
 import './styles/index.scss'
 
 
 export const App = () => {
     return(
-        <Layout>
-            Hello
-        </Layout>
+        <div>
+            <Routing/>
+        </div>
     )
 }
