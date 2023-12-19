@@ -1,0 +1,39 @@
+.small{
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.middle{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.large{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.over_large{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.text{
+    color: var(--text-color);
+}
+
+.error{
+    color: red;
+}
+
+.warning{
+    color: rgb(248, 213, 11);
+}
+
+.description{
+    color: var(--text-descr-color);
+}
+
+.selected{
+    color: var(--text-selected-color);
+}

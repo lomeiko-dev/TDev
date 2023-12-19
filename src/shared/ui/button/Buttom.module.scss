@@ -1,0 +1,48 @@
+.button{
+    display: flex;  
+}
+
+.small{
+    font-size: 12px;
+    padding: 2px 5px;
+}
+
+.middle{
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.large{
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.filled{
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    transition: .2s;
+}
+.filled:hover{
+    background-color: var(--button-selected-color);
+    opacity: 0.7;
+}
+
+.clear{
+    background-color: transparent;
+    transition: .2s;
+}
+
+.clear:hover{
+    color: var(--button-selected-color);
+}
+
+.outline{
+    background-color: transparent;
+    border: 2px solid var(--button-bg-color);
+    color: var(--button-text-contrast-color);
+    transition: .2s;
+}
+.outline:hover{
+    border: 2px solid (--button-selected-color);
+    opacity: .7;
+}
